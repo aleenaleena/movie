@@ -1,0 +1,88 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  font-weight: bold;
+  font-style: italic;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
+.z {
+  z-index: -5;
+  position: absolute;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+.transparent {
+  color: transparent;
+}
+.regular {
+  font-weight: 500;
+}
+.image {
+  max-height: 100%;
+}
+
+.parallax {
+  background-image: url("/denim2.jpg");
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav a:hover {
+  color: #ffa3d7;
+  font-style: italic;
+}
+.nav a:active {
+  color: #d5008f;
+  font-style: italic;
+}
+.nav a {
+  color: inherit;
+}
+.nav {
+  margin: 0;
+}
+/*  a:hover {
+    color: #ffa3d7;
+    font-weight: bold;
+    font-style: italic;
+  }
+  a:active {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+}
+*/
+
+.home a:hover {
+  color: inherit;
+}
+.home a:active {
+  color: inherit;
+}
+.home a {
+  color: inherit;
+}
