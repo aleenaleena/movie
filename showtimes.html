@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- page title -->
-  <title>90s Theatre / Showtimes </title>
+  <title>90s Theatre / Showtimes</title>
 
   <!-- Site Styles -->
   <link rel="stylesheet" href="/css/tachyons.min.css">
@@ -18,74 +18,118 @@
 <body>
   <!--home link/title-->
   <div class="parallax vh-25">
-    <div class="home pa6 flex justify-center items-baseline">
+    <div class="home ph4 pt-20 flex justify-left items-baseline">
       <a href="/index.html">
-        <h1 class="f1 f-headline-ns yellow avenir i"> 90's</h1>
+        <h1 class="f1 f-headline-ns yellow avenir i">90's</h1>
         <p class="ma0 f1 f-headline-ns i dark-pink georgia">theatre</a>
       </p>
     </div>
   </div>
 
   <!--other links-->
-  <br><br><br>
-  <div class="nav w-100 flex pv2 ph4 justify-between avenir b f6 f3-ns ma0">
-    <!--movies-->
-    <ul class="pa0 ma0 yellow"><a class="nav" href="/movies.html">Movies</a></ul>
+  <div class="flex-ns pt5-ns pv3">
+    <div class="w-75"></div>
+    <div class="nav w-34-ns avenir b yellow f3-l f4-m f4 ma0 ph4-ns ph5">
+      <ul class="pa0 ma0 yellow"><a class="nav link" href="/index.html">Home</a><br></ul>
+      <!--movies-->
+      <ul class="pa0 ma0"><a class="nav link" href="/movies.html">Movies</a><br></ul>
 
-    <!--showtimes-->
-    <ul class="pa0 ma0 dark-pink"><a href="/showtimes.html">Showtimes</a></ul>
+      <!--showtimes-->
+      <ul class="pa0 ma0 glow light-pink i"><a class="link" href="/showtimes.html">Showtimes</a></ul>
 
-    <!--purchase-->
-    <ul class="pa0 ma0 yellow"><a href="/purchase.html">Purchase Tickets</a></ul>
+      <!--purchase-->
+      <ul class="pa0 ma0"><a class="link" href="/purchase.html">Purchase Tickets</a></ul>
+    </div>
   </div>
 
-
   <!--body-->
-  <!--showtimes-->
+
+  <div class="flex-ns vh-25 items-center ph4-ns ph5 avenir ttu">
+    <!--movie times near-->
+    <div class="w-third">
+      <p class="pa0 ma0 f3-ns f5 dark-pink">Movie Times Near:</div>
+
+    <!--form-->
+    <div class="w-third">
+      <form class="black">
+        <div class="pv2">
+          <label for="name" class="f6 b db mb2"> <span class="normal black-60"></span></label>
+          <input id="zipcode" class="input-reset ba b--black-20 db w-5" type="text" aria-describedby="name-desc">
+        </div>
+      </form>
+      <!--go-->
+    </div>
+    <div class="w-third">
+      <p class="f6 grow no-underline br-pill ba ph3 pv2 mb2 dib"> <a href="/showtimes.html">go</a>
+      </p>
+    </div>
+
+  </div>
+
+  <!--today's date-->
+  <div class="flex justify-between vh-25 avenir white items-center tl mr4 hover">
+    <div class="w-15 ml4 pa4 bg-black-80 grow">
+      <h1 class="f5 regular"><strong>Friday</strong><br>March 23</h1></div>
+    <div class="w-15 pa4 bg-black-80 grow">
+      <h1 class="f5 regular"><strong>Saturday</strong><br>March 24</h1></div>
+    <div class="w-15 pa4 bg-black-80 grow">
+      <h1 class="f5 regular"><strong>Sunday</strong><br>March 25</h1></div>
+    <div class="w-15 pa4 bg-black-80 grow">
+      <h1 class="f5 regular"><strong>Monday</strong><br>March 26</h1></div>
+    <div class="w-15 pa4 bg-black-80 grow">
+      <h1 class="f5 regular"><strong>Tuesday</strong><br>March 27</h1></div>
+    <div class="w-15 pa4 bg-black-80 grow">
+      <h1 class="f5 regular"><strong>Wednesday</strong><br>March 28</h1></div>
+    <div class="w-15 pa4 bg-black-80 grow">
+      <h1 class="f5 regular"><strong>Thursday</strong><br>March 29</h1></div>
+
+  </div>
+
+  <!--movie descriptions-->
 
   <!--clueless-->
   <div class="flex-ns ma4">
-    <div class="w-75 w-25-ns mr4 center pa2">
+    <div class="w-75 w-25-ns mr4 center">
       <img src="/clueless.jpg">
     </div>
-    <div class="w-50-ns">
+    <div class="w-50-ns pl4">
       <h1 class="f3 avenir b ttu dark-pink">Clueless</h1>
 
-      <p class="f3 avenir justify-between grow black"><a href="/purchase.html">11:05am<br>1:05pm <br>3:05pm <br>5:05pm <br>7:05pm<br>9:05pm</a></p>
+      <p class="f3 avenir justify-between grow black"><a href="/purchase.html#pclueless">11:05am<br>1:05pm <br>3:05pm <br>5:05pm <br>7:05pm<br>9:05pm</a></p>
     </div>
 
 
     <!--10 things-->
-    <div class="w-75 w-25-ns mr4 center pa2">
+    <div class="w-75 w-25-ns mr4 center">
       <img src="/10things.jpg">
     </div>
-    <div class="w-50-ns">
+    <div class="w-50-ns pl4">
       <h1 class="f3 avenir b ttu dark-pink">10 Things I Hate About You</h1>
 
-      <p class="f3 avenir justify-between grow black"><a href="/purchase.html">12:30pm <br> 2:30pm <br> 4:30pm <br> 6:30pm <br>  8:30pm</a></p>
+      <p class="f3 avenir justify-between grow black"><a href="/purchase.html#p10">12:30pm <br> 2:30pm <br> 4:30pm <br> 6:30pm <br>  8:30pm</a></p>
     </div>
   </div>
 
   <!--girl, interrupted-->
   <div class="flex-ns ma4">
-    <div class="w-75 w-25-ns mr4 center pa2">
+    <div class="w-75 w-25-ns mr4 center">
       <img src="/ginterrupted.jpg">
     </div>
-    <div class="w-50-ns">
+    <div class="w-50-ns pl4">
       <h1 class="f3 avenir b ttu dark-pink">Girl, Interrupted</h1>
 
-      <p class="f3 avenir justify-between grow black"><a href="/purchase.html">11:00am <br>1:00pm <br> 3:00pm <br> 5:00pm <br>7:00pm <br> 9:00pm</a></p>
+      <p class="f3 avenir justify-between grow black"><a href="/purchase.html#pg">11:00am <br>1:00pm <br> 3:00pm <br> 5:00pm <br>7:00pm <br> 9:00pm</a></p>
     </div>
 
 
     <!--the parent trap-->
-    <div class="w-75 w-25-ns mr4 center pa2">
+    <div class="w-75 w-25-ns mr4 center">
       <img src="/ptrap.jpg">
     </div>
-    <div class="w-50-ns">
+    <div class="w-50-ns pl4">
       <h1 class="f3 avenir b ttu dark-pink">The Parent Trap</h1>
 
-      <p class="f3 avenir justify-between grow black"><a href="/purchase.html">12:20pm <br>2:20pm <br> 4:20pm <br> 6:20pm <br> 8:20pm</a></p>
+      <p class="f3 avenir justify-between grow black"><a href="/purchase.html#pt">12:20pm <br>2:20pm <br> 4:20pm <br> 6:20pm <br> 8:20pm</a></p>
     </div>
   </div>
 
@@ -93,24 +137,24 @@
 
   <!--scream-->
   <div class="flex-ns ma4">
-    <div class="w-75 w-25-ns mr4 center pa2">
+    <div class="w-75 w-25-ns mr4 center">
       <img src="/scream.jpg">
     </div>
-    <div class="w-50-ns">
+    <div class="w-50-ns pl4">
       <h1 class="f3 avenir b ttu dark-pink">Scream</h1>
 
-      <p class="f3 avenir justify-between grow black"><a href="/purchase.html">11:15am <br> 1:15pm <br> 3:15pm <br> 5:15pm <br> 7:15pm <br> 9:15pm</a></p>
+      <p class="f3 avenir justify-between grow black"><a href="/purchase.html#scream">11:15am <br> 1:15pm <br> 3:15pm <br> 5:15pm <br> 7:15pm <br> 9:15pm</a></p>
     </div>
 
 
     <!--pretty woman-->
-    <div class="w-75 w-25-ns mr4 center pa2">
+    <div class="w-75 w-25-ns mr4 center">
       <img src="/pwoman.jpg">
     </div>
-    <div class="w-50-ns">
+    <div class="w-50-ns pl4">
       <h1 class="f3 avenir b ttu dark-pink">Pretty Woman</h1>
 
-      <p class="f3 avenir justify-between grow black"><a href="/purchase.html">12:40pm <br>2:40pm <br> 4:40pm <br> 6:40pm <br>8:40pm</a></p>
+      <p class="f3 avenir justify-between grow black"><a href="/purchase.html#pw">12:40pm <br>2:40pm <br> 4:40pm <br> 6:40pm <br>8:40pm</a></p>
     </div>
   </div>
 
@@ -119,8 +163,8 @@
   <div class="flex-ns bg-light-yellow pa4">
     <div class="w-50-ns mr2">
       <!--address-->
-      <h1 class="f4 f3-m f1-l avenir ttu dark-pink b mv2 ma0-ns ">Directions</h1>
-      <p class="avenir f5 f4-ns black ma0"><a href="https://www.google.com/maps/dir//290+Harvard+St,+Brookline,+MA+02446/@42.3425921,-71.1246516,17z/data=!4m17!1m7!3m6!1s0x89e379bfc0cbd18f:0x2ad08589e86aba5b!2s290+Harvard+St,+Brookline,+MA+02446!3b1!8m2!3d42.3425882!4d-71.1224629!4m8!1m0!1m5!1m1!1s0x89e379bfc0cbd18f:0x2ad08589e86aba5b!2m2!1d-71.1224629!2d42.3425882!3e2">290 Harvard St. Brookline, MA 02215</a><br><br>Located
+      <h1 class="f4 f3-m f1-l avenir ttu dark-pink b mv2 ma0-ns">Directions</h1>
+      <p class="avenir f6 f5-ns black ma0"><a href="https://www.google.com/maps/dir//290+Harvard+St,+Brookline,+MA+02446/@42.3425921,-71.1246516,17z/data=!4m17!1m7!3m6!1s0x89e379bfc0cbd18f:0x2ad08589e86aba5b!2s290+Harvard+St,+Brookline,+MA+02446!3b1!8m2!3d42.3425882!4d-71.1224629!4m8!1m0!1m5!1m1!1s0x89e379bfc0cbd18f:0x2ad08589e86aba5b!2m2!1d-71.1224629!2d42.3425882!3e2">290 Harvard St. Brookline, MA 02215</a><br><br>Located
         near the intersection of Harvard St. and Babcock St. in Brookline, MA. Parking lot with meters located behind the theatre. If arriving on the T, the closest stops are Coolidge Corner (C Line) and Harvard St (B Line).</p>
     </div>
 
@@ -128,7 +172,7 @@
     <div class="w-50-ns">
       <!--address-->
       <h1 class="mv2 ma0-ns f4 f3-m f1-l avenir ttu dark-pink b">Contact</h1>
-      <p class="avenir f5 f4-ns black ma0">+1 (310) 525-9270<br><br>HOURS<br>Monday–Friday: 11am–12pm<br>Saturday & Sunday: 10am–2am</p>
+      <p class="avenir f6 f5-ns black ma0">+1 (310) 525-9270<br><br><strong>HOURS</strong><br>Monday–Friday: 11am–12pm<br>Saturday & Sunday: 10am–2am</p>
     </div>
 </body>
 

@@ -1,6 +1,15 @@
 /* ========================================
  * CSS written here will override Tachyons
  * ======================================== */
+.pt-20 {
+  padding-top: 9.5vw;
+}
+@media screen and (max-width: 480px) {
+  .pt-20 {
+    padding-top: 15vw;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -11,10 +20,16 @@ a:hover {
   font-style: italic;
 }
 a:active {
-  color: black;
+  color: inherit;
 }
 a:visited {
-  color: black;
+  color: inherit;
+}
+.pr {
+  font: avenir;
+}
+.pr a:hover {
+  color: dark-pink;
 }
 
 .z {
@@ -60,9 +75,7 @@ h1 {
 .nav a {
   color: inherit;
 }
-.nav {
-  margin: 0;
-}
+
 /*  a:hover {
     color: #ffa3d7;
     font-weight: bold;
